@@ -1,0 +1,16 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes></app-personajes>
+        <!-- [personaje] viene de MainPageComponent y "personajes" del @Input -->
+    </div>
+
+    <div class="col">
+        <app-agregar [nuevo]="nuevo">
+            <!-- onNewPersonaje es un evento como el evento OnClick -->
+        </app-agregar>
+    </div>
+
+</div>
